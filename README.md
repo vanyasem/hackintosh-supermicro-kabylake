@@ -1,16 +1,16 @@
 # Supermicro MBD-X11SAE-O Hackintosh
 
-Supported macOS version: macOS 12 - Monterey
+**Supported macOS version:** macOS 12 - Monterey
 
-SMBIOS: iMac18,3 _(use iMac18,1 for builds without dGPU)_
+**SMBIOS:** iMac18,3 _(use iMac18,1 for builds without dGPU)_
 
-OpenCore: [0.7.7](https://github.com/acidanthera/OpenCorePkg/releases/tag/0.7.7)
+**OpenCore:** [0.7.7](https://github.com/acidanthera/OpenCorePkg/releases/tag/0.7.7)
 
 ## Hardware
 
-**Motherboard**: Supermicro MBD-X11SAE-O
-**GPU**: Gigabyte PCI-E Radeon RX 570 8GB _(GV-RX570GAMING-8GD-MI)_ - **Polaris**
-**CPU**: Intel Xeon E3-1225 v6 _(cm8067702871024s r32c)_ - **Kaby Lake**
+- **Motherboard**: Supermicro MBD-X11SAE-O
+- **GPU**: Gigabyte PCI-E Radeon RX 570 8GB _(GV-RX570GAMING-8GD-MI)_ - **Polaris**
+- **CPU**: Intel Xeon E3-1225 v6 _(cm8067702871024s r32c)_ - **Kaby Lake**
 
 ## Quirks
 
