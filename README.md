@@ -30,7 +30,7 @@ You can also [disable on-screen logging](https://dortania.github.io/OpenCore-Ins
 
 Boot chime is enabled to be played on the back orange AUX port.
 
-Alternative (quiter) boot chime provided in [Resources/Audio](Resources/Audio)
+Alternative (quiter) boot chime provided in [EFI/Resources/Audio](Resources/Audio)
 
 `ACPI` patches are included, and are specific to the motherboard. They were made by me on 11-Aug-2021. If you have a different motherboard, you will need to follow [this guide](https://dortania.github.io/Getting-Started-With-ACPI/) to create your own suitable for your motherboard.
 
