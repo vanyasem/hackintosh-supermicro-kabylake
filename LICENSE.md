@@ -14,7 +14,7 @@ The repository is licensed under the `BSD-3-Clause` license, unless stated other
 
 - [OpenCorePkg](https://github.com/acidanthera/OpenCorePkg) - [LICENSES/LICENSE.BSD-3-Clause.txt](LICENSES/LICENSE.BSD-3-Clause.txt)
 - [AppleALC](https://github.com/acidanthera/AppleALC) - [LICENSES/LICENSE.BSD-3-Clause.txt](LICENSES/LICENSE.BSD-3-Clause.txt)
-- [IntelMausi](https://github.com/acidanthera/IntelMausi) - [LICENSES/LICENSE.GPL-2.0-only.txt](LICENSES/LICENSE.GPL-2.0-only.txt) and [LICENSES/APPLE_LICENSE.txt](LICENSES/APPLE_LICENSE.txt)
+- [IntelMausi](https://github.com/acidanthera/IntelMausi) - [LICENSES/LICENSE.GPL-2.0-only.txt](LICENSES/LICENSE.GPL-2.0-only.txt) and [LICENSES/LICENSE.APSL-2.0.txt](LICENSES/LICENSE.APSL-2.0.txt)
 - [Lilu](https://github.com/acidanthera/Lilu) - [LICENSES/LICENSE.BSD-3-Clause.txt](LICENSES/LICENSE.BSD-3-Clause.txt)
 - [NVMeFix](https://github.com/acidanthera/NVMeFix) - [LICENSES/LICENSE.BSD-3-Clause.txt](LICENSES/LICENSE.BSD-3-Clause.txt) and [LICENSES/LICENSE.GPL-2.0-only.txt](LICENSES/LICENSE.GPL-2.0-only.txt)
 - [VirtualSMC](https://github.com/acidanthera/VirtualSMC) - [LICENSES/LICENSE.BSD-3-Clause.txt](LICENSES/LICENSE.BSD-3-Clause.txt)
