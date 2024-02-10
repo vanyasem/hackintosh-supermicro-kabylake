@@ -24,6 +24,8 @@ While the config itself is ready to use, you still need to [generate your own se
 
 SuperMicro does not allow to change CFG lock in UEFI settings, so you will have to manually patch your UEFI to remove CFG lock. You will have to follow [this guide](https://dortania.github.io/OpenCore-Post-Install/misc/msr-lock.html#checking-if-your-firmware-supports-cfg-lock-unlocking) first before attempting to install macOS. It's perfectly safe to do, as long as you understand the instructions given, and perform them exactly as described.
 
+You will also need to disable VT-D in UEFI settings. You can take a look at my UEFI settings in [this folder](UEFI_Settings/).
+
 After installing, you might be interested in [enabling secure boot](https://dortania.github.io/OpenCore-Post-Install/universal/security/applesecureboot.html#dmgloading). I have only tested the "Default" option.
 
 You can also [disable on-screen logging](https://dortania.github.io/OpenCore-Install-Guide/troubleshooting/debug.html#config-changes) once you're sure that your system is stable.
