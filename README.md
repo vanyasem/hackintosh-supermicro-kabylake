@@ -4,7 +4,7 @@
 
 **SMBIOS:** iMac18,3 _(use iMac18,1 for builds without dGPU)_
 
-**OpenCore:** [0.9.4](https://github.com/acidanthera/OpenCorePkg/releases/tag/0.9.4)
+**OpenCore:** [0.9.7](https://github.com/acidanthera/OpenCorePkg/releases/tag/0.9.7)
 
 ## Hardware
 
@@ -58,13 +58,13 @@ If you choose to try this config on a different motherboard despite the warnings
 
 ### Kexts
 
-1) [AppleALC](https://github.com/acidanthera/AppleALC) (**1.8.4**) - Audio for not officially supported codecs
+1) [AppleALC](https://github.com/acidanthera/AppleALC) (**1.8.8**) - Audio for not officially supported codecs
 2) [IntelMausi](https://github.com/acidanthera/IntelMausi) (**1.0.7**) - Intel Ethernet LAN driver
 3) [Lilu](https://github.com/acidanthera/Lilu) (**1.6.7**) - Required for almost all other Kexts
 4) [NVMeFix](https://github.com/acidanthera/NVMeFix) (**1.1.1**) - Improve compatibility with non-Apple NVMe SSDs
 5) [SMCProcessor](https://github.com/acidanthera/VirtualSMC) (**n/a**) - Part of VirtualSMC
 6) [SMCSuperIO](https://github.com/acidanthera/VirtualSMC) (**n/a**) - Part of VirtualSMC
-7) USBMap - *Generated manually as part of SSDT patches, preferred*
+7) USBMap - *Generated manually as part of SSDT patches*
 8) [VirtualSMC](https://github.com/acidanthera/VirtualSMC) (**1.3.2**) - SMC emulator layer
 9) [WhateverGreen](https://github.com/acidanthera/WhateverGreen) (**1.6.6**) - Patches for GPUs
 10) [BrcmPatchRAM3](https://github.com/acidanthera/BrcmPatchRAM) **(2.6.8)** - Broadcom USB Bluetooth support
