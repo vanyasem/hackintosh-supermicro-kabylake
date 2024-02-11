@@ -4,7 +4,7 @@
 
 **SMBIOS:** iMac18,3 _(use iMac18,1 for builds without dGPU)_
 
-**OpenCore:** [0.9.7](https://github.com/acidanthera/OpenCorePkg/releases/tag/0.9.7)
+**OpenCore:** [0.9.8](https://github.com/acidanthera/OpenCorePkg/releases/tag/0.9.8)
 
 ## Hardware
 
@@ -58,7 +58,7 @@ If you choose to try this config on a different motherboard despite the warnings
 
 ### Kexts
 
-1) [AppleALC](https://github.com/acidanthera/AppleALC) (**1.8.8**) - Audio for not officially supported codecs
+1) [AppleALC](https://github.com/acidanthera/AppleALC) (**1.8.9**) - Audio for not officially supported codecs
 2) [IntelMausi](https://github.com/acidanthera/IntelMausi) (**1.0.7**) - Intel Ethernet LAN driver
 3) [Lilu](https://github.com/acidanthera/Lilu) (**1.6.7**) - Required for almost all other Kexts
 4) [NVMeFix](https://github.com/acidanthera/NVMeFix) (**1.1.1**) - Improve compatibility with non-Apple NVMe SSDs
