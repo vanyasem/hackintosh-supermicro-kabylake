@@ -11,6 +11,7 @@
 - **Motherboard**: Supermicro MBD-X11SAE-O
 - **GPU**: Gigabyte PCI-E Radeon RX 570 8GB _(GV-RX570GAMING-8GD-MI)_ - **Polaris**
 - **CPU**: Intel Xeon E3-1225 v6 _(cm8067702871024s r32c)_ - **Kaby Lake**
+- **Bluetooth**: ASUS USB-BT400 (`0b05:17cb` _ASUSTek Computer Inc. BCM20702A0_) - most USB Broadcom dongles should also work
 
 ## Quirks
 
@@ -40,7 +41,7 @@ Alternative (quiter) boot chime provided in [EFI/OC/Resources/Audio](EFI/OC/Reso
 
 If you have a different motherboard, you have to generate your own `USBMap` yourself. Read [https://dortania.github.io/OpenCore-Post-Install/usb/](this) for more details.
 
-If you choose to try this config on a different motherboard anyways, you will also probably need to adjust the `layout-id` to get your audio ports detected correctly. Follow [this guide](https://dortania.github.io/OpenCore-Post-Install/universal/audio.html#finding-your-layout-id).
+If you choose to try this config on a different motherboard despite the warnings above, you will also probably need to adjust the `layout-id` to get your audio ports detected correctly. Follow [this guide](https://dortania.github.io/OpenCore-Post-Install/universal/audio.html#finding-your-layout-id).
 
 ## Bundled
 
@@ -64,6 +65,9 @@ If you choose to try this config on a different motherboard anyways, you will al
 7) USBMap - *Generated manually as part of SSDT patches, preferred*
 8) [VirtualSMC](https://github.com/acidanthera/VirtualSMC) (**1.3.2**) - SMC emulator layer
 9) [WhateverGreen](https://github.com/acidanthera/WhateverGreen) (**1.6.6**) - Patches for GPUs
+10) [BrcmPatchRAM3](https://github.com/acidanthera/BrcmPatchRAM) **(2.6.8)** - Broadcom USB Bluetooth support
+11) [BrcmFirmwareData](https://github.com/acidanthera/BrcmPatchRAM) **(n/a)** - Part of BrcmPatchRAM. Firmware files for bootloader injection
+12) [BlueToolFixup](https://github.com/acidanthera/BrcmPatchRAM) **(n/a)** - Part of BrcmPatchRAM. Required for macOS 12+
 
 ### Tools
 
