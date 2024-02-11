@@ -53,6 +53,8 @@ If you choose to try this config on a different motherboard despite the warnings
 2) `HfsPlus.efi` - Proprietary EFI **HFS+** file system driver
 3) `OpenCanopy.efi` - OpenCore plugin (Bootloader GUI)
 4) `OpenRuntime.efi` - Mandatory OpenCore plugin with [special features](https://dortania.github.io/docs/latest/Configuration.html#openruntime)
+5) `ResetNvramEntry.efi` - OpenCore plugin, adds [ResetNvram](https://dortania.github.io/docs/latest/Configuration.html#resetnvramentry) entry to the boot menu
+6) `ToggleSipEntry.efi` - OpenCore plugin, adds [ToggleSip](https://dortania.github.io/docs/latest/Configuration.html#togglesipentry) entry to the boot menu
 
 ### Kexts
 
