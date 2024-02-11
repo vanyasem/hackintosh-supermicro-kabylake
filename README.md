@@ -27,7 +27,7 @@ SuperMicro does not allow to change CFG lock in UEFI settings, so you will have 
 
 You will also need to disable VT-D in UEFI settings. You can take a look at my UEFI settings in [this folder](UEFI_Settings/).
 
-After installing, you might be interested in [enabling secure boot](https://dortania.github.io/OpenCore-Post-Install/universal/security/applesecureboot.html#dmgloading). I have only tested the "Default" option.
+After installing, you might be interested in [enabling secure boot](https://dortania.github.io/OpenCore-Post-Install/universal/security/applesecureboot.html#dmgloading). I have only tested the `x86legacy` option.
 
 You can also [disable on-screen logging](https://dortania.github.io/OpenCore-Install-Guide/troubleshooting/debug.html#config-changes) once you're sure that your system is stable.
 
