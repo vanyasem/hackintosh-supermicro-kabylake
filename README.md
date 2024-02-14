@@ -45,7 +45,7 @@ If you choose to try this config on a different motherboard despite the warnings
 
 ## Bundled
 
-[Resources](https://github.com/acidanthera/OcBinaryData) included
+[Resources](https://github.com/acidanthera/OcBinaryData) included _(except for voiceovers)_
 
 ### Drivers
 
