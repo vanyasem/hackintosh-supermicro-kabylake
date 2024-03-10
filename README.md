@@ -1,10 +1,20 @@
 # Supermicro MBD-X11SAE-O Hackintosh
 
-**Supported macOS version:** macOS 13 - Ventura
+**Supported macOS version:** macOS 14 - Sonoma
 
-**SMBIOS:** iMac18,3 _(use iMac18,1 for builds without dGPU)_
+**SMBIOS:** iMac19,1
 
 **OpenCore:** [0.9.8](https://github.com/acidanthera/OpenCorePkg/releases/tag/0.9.8)
+
+## Updating
+
+If you are updating from macOS 13 - Ventura, you must pay attention to the fact that SMBIOS has changed in order to recieve the Sonoma update.
+
+This means that you have to log out of iCloud before updating the EFI. You can also delete iCloud leftovers by following [this guide](https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html#clean-out-old-attempts) to be extra safe. And then you will have to regenerate the serial number with GenSMBIOS (as described below in the Notes section).
+
+After updating the EFI, reset NVRAM on first boot (press space on boot picker, and select Reset NVRAM).
+
+You can then proceed with the update as you normally would on a Mac. Open System Settings, check for updates, and install Sonoma. You can then log back into iCloud. Your PC will be detected as an entirely new device. Make sure to delete stale login entries from your device list.
 
 ## Hardware
 
@@ -74,3 +84,4 @@ If you choose to try this config on a different motherboard despite the warnings
 ### Tools
 
 1) `OpenShell.efi` - EFI shell, useful for debugging
+2) `CleanNvram.efi` - completely cleans NVRAM, useful when NVRAM got corrupted
