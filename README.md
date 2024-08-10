@@ -84,4 +84,4 @@ If you choose to try this config on a different motherboard despite the warnings
 ### Tools
 
 1) `OpenShell.efi` - EFI shell, useful for debugging
-2) `CleanNvram.efi` - completely cleans NVRAM, useful when NVRAM got corrupted
+2) `CleanNvram.efi` - completely clears NVRAM, useful when NVRAM got corrupted
