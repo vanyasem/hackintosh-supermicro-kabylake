@@ -1,6 +1,6 @@
 # Supermicro MBD-X11SAE-O Hackintosh
 
-**Supported macOS version:** macOS 14 - Sonoma
+**Supported macOS version:** macOS 14 - Sonoma, macOS 15 - Sequoia
 
 **SMBIOS:** iMac19,1
 
