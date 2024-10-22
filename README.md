@@ -4,7 +4,7 @@
 
 **SMBIOS:** iMac19,1
 
-**OpenCore:** [1.0.1](https://github.com/acidanthera/OpenCorePkg/releases/tag/1.0.1)
+**OpenCore:** [1.0.2](https://github.com/acidanthera/OpenCorePkg/releases/tag/1.0.2)
 
 ## Updating
 
@@ -68,16 +68,16 @@ If you choose to try this config on a different motherboard despite the warnings
 
 ### Kexts
 
-1) [AppleALC](https://github.com/acidanthera/AppleALC) (**1.9.1**) - Audio for codecs that are not officially supported
+1) [AppleALC](https://github.com/acidanthera/AppleALC) (**1.9.2**) - Audio for codecs that are not officially supported
 2) [IntelMausi](https://github.com/acidanthera/IntelMausi) (**1.0.7**) - Intel Ethernet LAN driver
-3) [Lilu](https://github.com/acidanthera/Lilu) (**1.6.8**) - Required for almost all other Kexts
+3) [Lilu](https://github.com/acidanthera/Lilu) (**1.6.9**) - Required for almost all other Kexts
 4) [NVMeFix](https://github.com/acidanthera/NVMeFix) (**1.1.1**) - Improve compatibility with non-Apple NVMe SSDs
 5) [SMCProcessor](https://github.com/acidanthera/VirtualSMC) (**n/a**) - Part of VirtualSMC. Used for monitoring Intel CPU temperature
 6) [SMCSuperIO](https://github.com/acidanthera/VirtualSMC) (**n/a**) - Part of VirtualSMC. Used for monitoring fan speed
 7) [USBMap](https://github.com/corpnewt/USBMap) (**11-Aug-2021**) - _Generated manually as part of SSDT patches_
-8) [VirtualSMC](https://github.com/acidanthera/VirtualSMC) (**1.3.3**) - SMC emulator layer
-9) [WhateverGreen](https://github.com/acidanthera/WhateverGreen) (**1.6.7**) - Patches for GPUs
-10) [BrcmPatchRAM3](https://github.com/acidanthera/BrcmPatchRAM) (**2.6.8**) - Broadcom USB Bluetooth support
+8) [VirtualSMC](https://github.com/acidanthera/VirtualSMC) (**1.3.4**) - SMC emulator layer
+9) [WhateverGreen](https://github.com/acidanthera/WhateverGreen) (**1.6.8**) - Patches for GPUs
+10) [BrcmPatchRAM3](https://github.com/acidanthera/BrcmPatchRAM) (**2.6.9**) - Broadcom USB Bluetooth support
 11) [BrcmFirmwareData](https://github.com/acidanthera/BrcmPatchRAM) (**n/a**) - Part of BrcmPatchRAM. Firmware files for bootloader injection
 12) [BlueToolFixup](https://github.com/acidanthera/BrcmPatchRAM) (**n/a**) - Part of BrcmPatchRAM. Required for macOS 12+
 
